@@ -21,6 +21,6 @@ app.set('views',__dirname + '/views');
 
 
 
-app.listen(process.env.PORT || 8080, function{
-	console.log('8080 is the magic port');
+app.listen(process.env.PORT || 3000, function(){
+	console.log('3000 is the magic port');
 });
