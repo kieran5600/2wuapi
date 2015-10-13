@@ -5,7 +5,7 @@
 var express = require('express');
 var app = express();
 
-//for css
+//For css. And pictures, right?
 app.use(express.static(__dirname + '/public'));
 
 // set the view engine to ejs
@@ -18,9 +18,10 @@ require('./routes/main')(app);
 app.set('views',__dirname + '/views');
 
 // use res.render to load up an ejs view file this is /routes
-
-
-
+// process.env.PORT is needed for heroku
 app.listen(process.env.PORT || 3000, function(){
-	console.log('3000 is the magic port');
+  console.log("Express server listening on port %d in %s mode", 
+  			  this.address().port, app.settings.env);
 });
+
+

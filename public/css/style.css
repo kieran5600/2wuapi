@@ -4,7 +4,10 @@ h1{
 }
 
 body {
+	text-align: center;
 	background-color: #5CD6FF;
+	/*height: 50%;
+	width: 50%;*/
 }
 
 #bodyCentered{
@@ -19,5 +22,12 @@ body {
 
 nav, #footer{
 	padding: 2.5em;
+
+}
+
+#CspSyndicationScript{
+	align: center;
+}
+
 
 }
