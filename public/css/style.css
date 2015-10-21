@@ -1,33 +1,28 @@
-h1{
-	text-align: center;
-	font: times; 
-}
+
 
 body {
-	text-align: center;
-	background-color: #5CD6FF;
-	/*height: 50%;
-	width: 50%;*/
+text-align: center;
+padding: 2em;	
+/*width: 50%;*/
+margin:center;
 }
 
-#bodyCentered{
-	text-align: center;
-	margin: auto;
-	width: 75%;
-	height: 15em;
-	padding: 4em;
-	background-color: #D2691E;
-
+#B1 {
+margin: 0 auto;
+width: 50%;
+/*padding: 3%*/
 }
 
-nav, #footer{
-	padding: 2.5em;
-
+#headerPic{
+width: 80%
 }
 
-#CspSyndicationScript{
-	align: center;
+p{
+text-align: left;	
 }
 
-
+nav{
+	width: 10%;
+	height: 10%;
+	float: right;
 }

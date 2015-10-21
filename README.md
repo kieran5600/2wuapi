@@ -17,4 +17,4 @@ heroku apps
 # Open heroku app
 heroku open
 # View heroku logs
-heroku logs
+heroku logs# automated_systems

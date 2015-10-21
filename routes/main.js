@@ -5,7 +5,7 @@ module.exports=function(app)
 app.get('/',function(req,res){
 res.render('pages/index', {
 	author: 'Kieran Pierce',
-	page: ''
+	page: 'Home'
 	});
 });
 
@@ -16,5 +16,11 @@ res.render('pages/about',{
 	});
 });
 
+app.get('/solutions',function(req,res){
+res.render('pages/solutions',{
+	author: "Kieran Pierce",
+	page: 'Solutions'
+	});
+});
 
 }
